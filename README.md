@@ -31,3 +31,5 @@ Use the design tools to personalize your template.
 Preview your design in real-time.
 Save your design and proceed to order prints.
 Manage your orders and track their status from your account dashboard.
+
+<img src="home1.png">

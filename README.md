@@ -32,4 +32,4 @@ Preview your design in real-time.
 Save your design and proceed to order prints.
 Manage your orders and track their status from your account dashboard.
 
-<img src="home1.png"><img src="home2.png">
+<img src="home1.png"><img src="home2.png"><img src="home3.png">

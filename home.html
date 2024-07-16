@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Angel Prints</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="images/logo.jpg" type="image/icon type">
+        <meta name="viewport" content="widhth=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/common_nav_footer_css.css">
+        <link rel="stylesheet" href="css/common_css.css">
+        <link rel="stylesheet" href="JS/home_js.js" type="text/Javascript">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Cookie&family=Handlee&family=Lobster+Two&family=Marck+Script&family=Oswald:wght@300&family=Playfair+Display&family=Tangerine&display=swap" 
+         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="home_body">
+        <script src="js/script.js"></script>
+        <!-- Nav bar-->
+       <header class="nav_heading">
+            <div class="navbar">
+                <div class="logo"><img src="images/logo.jpg" class="navlogo"><a href="#" class="nav_head">Angel Prints</a></div>
+                <ul class="nav_links">
+                    <li class="nav_link"><a href="home.html" class="nav_link">Home</a></li>
+                    <li class="nav_link"><a href="about.html" class="nav_link">About</a></li>
+                    <li class="nav_link"><a href="contact.html" class="nav_link">Contact</a></li>
+                    <li class="nav_link"><a href="module_admin.html" class="nav_link">Admin</a></li>
+                    <li class="nav_link"><a href="module_manager.html" class="nav_link">Manager</a></li>
+                    <li class="nav_link"><a href="module_user.html" class="nav_link">User</a></li>
+                </ul>
+                <a href="login.html" class="home_signin">login</a>
+                <div class="toggle_btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+            </div>
+            <div class="dropdown_menu ">
+                <li class="nav_link"><a href="#" class="nav_link">Home</a></li>
+                <li class="nav_link"><a href="about.html" class="nav_link">About</a></li>
+                <li class="nav_link"><a href="contact.html" class="nav_link">Contact</a></li>
+                <li class="nav_link"><a href="module_admin.html" class="nav_link">Admin</a></li>
+                <li class="nav_link"><a href="module_manager.html" class="nav_link">Manager</a></li>
+                <li class="nav_link"><a href="module_user.html" class="nav_link">User</a></li>
+                <li><a href="login.html" class="home_signin nav_link">login</a></li>
+            </div>
+        </header>
+        <main>
+            <!-- heading of the page -->
+            <section id="home_heading">
+                <h1>Home page</h1>
+                <p>This is the <br>Home page of the website</p>
+            </section>
+
+            <!-- modules-->
+            <div class="modules" >
+            <div class="module_cards module_1">
+                <a href="admin/admin.html" class="module_a">
+                    <div class="card_face card_front">
+                        <img src="images/admin.home.jpg">
+                        <h3>Admin</h3>
+                    </div>
+                    <div class="card_face card_back">
+                        <h3 id="card_head">Admin</h3>
+                        <p id="card_par">In this portal can add the manager into the portal and 
+                            can look at the number of managers available in his site.
+                             He can also able to look at the user list, design list, current view in his site.
+                             When the user places the order then admin gets the notification.
+                             When manager and user have any issues then they can communicate with the admin with feedback option. 
+                            Admin can also see the past transactions in the history.
+                        </p>
+                        <div class="module_link">
+                            <a href="admin/admin.html">Admin Details</a>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="module_cards module_2">
+                <a href="manager/manager.html" class="module_a">
+                    <div class="card_face card_front">
+                        <img src="images/manager.home.jpg">
+                        <h3>Manager</h3>
+                    </div>
+                    <div class="card_face card_back">
+                        <h3 id="card_head">Manager</h3>
+                        <p id="card_par">Manager should also register before logging into the portal. 
+                            he is the person who acts as a bridge between the admin and the user.
+                             Here the manager will add the new designs into the portal. He can also view the user list,
+                              design list and current list. 
+                             When the user places the order then manager also gets the notification.
+                              If user has any issue manager will communicate with him,
+                              if manager has any issue, he communicates with the admin. 
+                            Manager can also see the past transactions in the history.	
+                        </p>
+                        <div class="module_link">
+                            <a href="manager/manager.html">Manager Details</a>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="module_cards module_3">
+                <a href="user/user.html"class="module_a">
+                    <div class="card_face card_front">
+                        <img src="images/user.home.jpg">
+                        <h3>User</h3>
+                    </div>
+                    <div class="card_face card_back">
+                        <h3 id="card_head">User</h3>
+                        <p id="card_par"> User is a person who should register and login into the portal for shopping 
+                            the designs. User can select the particular design from the list of designs available in the portal.
+                             he can place order and can give the feedbacks to the both manager as well as the admin.
+                        </p>
+                        <div class="module_link">
+                            <a href="user/user.html">User Details</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </div>
+        <!-- image and paragraph-->
+        <div class="home_line">
+            <div ><img src="images/doordesign.jpg" class="home_img "></div>
+            <div class="home_par"><p>The project is “Angel prints”, we are working on online print portal.  Angel prints is nothing but printing design at online portal. Offline prints take more time to get our order. Cost of prints differ from one print shop to another print shop in offline, we have to visit the print shop. We have to select the design, if we don’t have enough time to select to us. We miss better designs.   
+                In online portal, the print models and size, colour, style, font all provide at one web page. The customer will select the style and they give order to printer. In online portal customer select their model from home (or) working place only he doesn’t need to go the print shop.  
+             In offline print they take big order’s they give preference to big order they not give more preference to a smaller number of prints, so If customer give small order they will postpone the order, but in online portal they give preference to all type of order. 
+             </p></div>
+        </div>
+        <div class="home_line">
+            <div class="home_par"><p>                                 In online print portal the customer will select better design and they call to designer and customer explain to designer what type of print they want the customer will save the time and money. At offline print shop we have to select the best shop and less price. So, it takes more time if customer not have knowledge on printing, they take other’s help they have to wait for them. In online printing portal. If customer don’t have idea about printing, they will select by seeing models.                                             
+
+                Common type of printing is surface printing, flex organic printing, screen printing, digital printing, 3D prints, etc…The printing protocol         now using at market are APPSOCKET, also known as part 900. RAW, jet direct etc…IT is simplest and fastest. 
+               And online portal is easier and cheaper to make a web-based system user friendly across more platform and screen sizes because it is one system that adopts to the screen. If any issues occur, they will refuse the money online they will refund the money online printing portals speed up the printing process and get products turned around faster.</p></div>
+            <div ><img src="images/invitation card.jpg" class="home_img"></div>
+        </div>
+    </main>
+        <!-- footer -->
+        <footer class="home_footer">
+            <div class="footer_container">
+                <div class="footer_row">
+                    <div class="footer_col">
+                        <h4>Company</h4>
+                        <ul class="footer_ul">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">PrivacyPolicy</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Get Help</h4>
+                        <ul class="footer_ul">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Online Shop</h4>
+                        <ul class="footer_ul">
+                            <li><a href="#">Flexies</a></li>
+                            <li><a href="#">Door Designs</a></li>
+                            <li><a href="#">Invitation Cards</a></li>
+                            <li><a href="#">More</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Follow Us</h4>
+                        <div class="footer_links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--java script-->
+        <script >
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn span')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick = function(){
+                dropDownMenu.classList.toggle('open')
+                const isOpen = document.classList.contains('open')
+            }       
+    </script>
+    </body>
+</html>
